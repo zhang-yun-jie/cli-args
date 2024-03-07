@@ -3,7 +3,7 @@ CLI arguments micro parser. Only 38 lines of code, no dependencies.
 
 ``` js
 #!/usr/bin/env node
-const args = require('@zhangyunjie/cli-args')(process.argv.slice(2));
+const args = require('@yun-jie/cli-args')(process.argv.slice(2));
 console.dir(args);
 ```
 
